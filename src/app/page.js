@@ -9,21 +9,23 @@ export default function Home() {
   return (
     <Container>
       <Grid
-        className='relative'
         container 
         justifyContent="center"
-        display="flex"
-        alignItems="center" >
-        <Box
-          className="relative p-2 border border-dashed border-gray-50 rounded-full animate-spin-slow"
-          component="section"
-          justifyContent="center"
-          display="flex">
+        alignItems="center">
+        <Grid
+          className='relative m-8'>
+          <Box
+            className="relative p-2 border-4 border-dashed border-blue-950 rounded-full animate-spin-slow"
+            justifyContent="center">
+            <Avatar
+              className="max-w-80 max-h-80 min-w-64 min-h-64 relative animate-anti-spin-slow"
+              src={'/assets/images/rimbamorani-2.svg'} />
+          </Box>
 
-        <Avatar
-          className="w-80 h-80 relative animate-anti-spin-slow"
-          src={'/assets/images/rimbamorani_ava.svg'} />
-        </Box>
+          <Box
+            className="absolute -z-10 -bottom-4 -right-4 max-w-80 max-h-80 min-w-64 min-h-64 bg-yellow-300 rounded-full"
+            justifyContent="center"></Box>
+        </Grid>
       </Grid>
     </Container>
   );
