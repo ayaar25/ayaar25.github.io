@@ -1,3 +1,6 @@
+url: 'https://rimbamorani.dev'
+baseurl: ''
+
 collections:
   authors:
     output: true
@@ -17,3 +20,9 @@ defaults:
       path: ""
     values:
       layout: "default"
+
+plugins:
+  - jekyll-postcss
+
+postcss:
+  cache: false
