@@ -5,7 +5,7 @@ import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import localFont from "next/font/local";
 import Navbar from './navigation';
 import "./globals.css";
-import LeftDrawer from './drawer';
+import Drawer from './drawer';
 
 const NAVIGATION = [
   {
@@ -26,7 +26,7 @@ const NAVIGATION = [
 ];
 
 const BRANDING = {
-  logo: <img src='/assets/images/chicken_code.svg' alt='rimbamorani.dev'/>,
+  logo: <img src='/assets/images/chicken-code.svg' alt='rimbamorani.dev'/>,
   title: ' '
 }
 
@@ -52,7 +52,7 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased bg-slate-50`}>
         <Navbar />
-        {/* <LeftDrawer /> */}
+        <Drawer />
         {children}
       </body>
     </html>

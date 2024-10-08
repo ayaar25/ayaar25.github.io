@@ -2,12 +2,14 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Grid2';
 import Avatar from '@mui/material/Avatar';
+import CssBaseline from '@mui/material/CssBaseline';
 import Container from '@mui/material/Container';
 import './globals.css'
 
 export default function Home() {
   return (
-    <Container>
+    <Box sx={{ display: 'flex' }}>
+      <CssBaseline />
       <Grid
         container 
         justifyContent="center"
@@ -27,6 +29,6 @@ export default function Home() {
             justifyContent="center"></Box>
         </Grid>
       </Grid>
-    </Container>
+    </Box>
   );
 }
