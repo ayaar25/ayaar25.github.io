@@ -1,28 +1,34 @@
-url: 'https://rimbamorani.dev'
-baseurl: ''
+# Dependencies
+markdown:         kramdown
+highlighter:      pygments
 
-collections:
-  authors:
-    output: true
+# Permalinks
+permalink:        pretty
+# relative_permalinks: true
 
-defaults:
-  - scope:
-      path: ""
-      type: "authors"
-    values:
-      layout: "author"
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
+# Setup
+title:            rimbamorani
+tagline:          'a lifelong learner'
+description:      'Lifelong Learner | Software Engineer & Data Analyst'
+url:              https://rimbamorani.dev
+baseurl:          /
 
+author:
+  name:           'Aya Aurora Rimbamorani'
+  url:            https://github.com/ayaar25
+
+gems:                [jekyll-paginate]
+paginate:            5
+paginate_path:       "page:num"
+
+# Custom vars
+version:          0.1.0
+
+github:
+  repo:           https://github.com/poole/hyde
+
+# Gems
 plugins:
-  - jekyll-postcss
-
-postcss:
-  cache: false
+  - jekyll-gist
+  - jekyll-paginate
+  - jekyll-seo-tag

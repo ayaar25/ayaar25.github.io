@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About Me
+title: Projects
 ---
 
 <p class="message">
   Still work in progress
 </p>
-
-Thanks for reading!
