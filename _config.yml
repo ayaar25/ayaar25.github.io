@@ -25,7 +25,7 @@ paginate_path:       "page:num"
 version:          0.1.0
 
 github:
-  repo:           https://github.com/poole/hyde
+  repo:           https://github.com/ayaar25/ayaar25.github.io
 
 # Gems
 plugins:
