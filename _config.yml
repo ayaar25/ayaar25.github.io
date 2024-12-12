@@ -10,8 +10,8 @@ permalink:        pretty
 title:            rimbamorani
 tagline:          'a lifelong learner'
 description:      'Lifelong Learner | Software Engineer & Data Analyst'
-url:              https://rimbamorani.dev
-baseurl:          /
+url:              https://rimbamorani.dev/
+baseurl:          https://rimbamorani.dev/
 
 author:
   name:           'Aya Aurora Rimbamorani'
