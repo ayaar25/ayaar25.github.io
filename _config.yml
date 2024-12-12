@@ -7,11 +7,11 @@ permalink:        pretty
 # relative_permalinks: true
 
 # Setup
-title:            rimbamorani
+title:            "aya<br>rimbamorani"
 tagline:          'a lifelong learner'
 description:      'Lifelong Learner | Software Engineer & Data Analyst'
 domain:           rimbamorani.dev
-url:              https://rimbamorani.dev/
+url:              https://rimbamorani.dev
 baseurl:          /
 
 author:
