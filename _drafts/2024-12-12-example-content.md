@@ -1,8 +1,11 @@
 ---
 layout: post
 title: Still Work in Progress
+excerpt_separator: <!--more-->
 ---
 
+Excerpt with multiple paragraphs
+<!--more-->
 
 <div class="message">
   Still work in progress
